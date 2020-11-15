@@ -6,7 +6,7 @@ MEDIA QUERIES
     width: 40rem;
   }
   h1 {
-    font-size: 20rem;
+    font-size: 18rem;
   }
   p {
     font-size: 2rem;
@@ -18,10 +18,25 @@ MEDIA QUERIES
     width: 30rem;
   }
   h1 {
-    font-size: 13rem;
+    font-size: 16rem;
   }
   p {
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  #logo {
+    width: 30rem;
+  }
+  h1 {
+    font-size: 14rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .row-header {
+    margin: 10rem 0 0 0;
   }
 }
 
@@ -45,6 +60,26 @@ MEDIA QUERIES
     font-size: 1.5rem;
   }
   .row {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #logo {
+    width: 20rem;
+  }
+  h1 {
+    font-size: 7rem;
+    letter-spacing: 0.2rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .row-header {
+    margin: 7rem 0 0 0;
+  }
+  .col-btn {
+    display: flex;
     justify-content: center;
   }
 }

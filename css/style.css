@@ -74,6 +74,12 @@ p {
   text-align: right;
 }
 
+.owl-header .owl-dot {
+  position: relative;
+  top: 15rem;
+  text-align: right;
+}
+
 .owl-theme .owl-header .owl-dots .owl-dot span {
   width: 1.2rem;
   height: 1.2rem;
@@ -92,6 +98,7 @@ p {
 .owl-dot:focus {
   outline: 0;
 }
+
 .btn-1 {
   margin-top: 5rem;
 }
@@ -123,8 +130,6 @@ p {
 }
 
 .owl-theme .owl-dots .owl-dot span {
-  position: relative;
-  top: 20rem;
   width: 1.2rem;
   height: 1.2rem;
   margin: 0 2rem 0 0;
@@ -167,8 +172,6 @@ p {
 }
 
 .owl-theme .owl-dots .owl-dot span {
-  position: relative;
-  top: 20rem;
   width: 1.2rem;
   height: 1.2rem;
   margin: 0 2rem 0 0;
@@ -211,8 +214,6 @@ p {
 }
 
 .owl-theme .owl-dots .owl-dot span {
-  position: relative;
-  top: 20rem;
   width: 1.2rem;
   height: 1.2rem;
   margin: 0 2rem 0 0;
@@ -255,8 +256,6 @@ p {
 }
 
 .owl-theme .owl-dots .owl-dot span {
-  position: relative;
-  top: 20rem;
   width: 1.2rem;
   height: 1.2rem;
   margin: 0 2rem 0 0;
