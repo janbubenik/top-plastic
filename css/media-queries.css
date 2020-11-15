@@ -38,6 +38,9 @@ MEDIA QUERIES
   .row-header {
     margin: 10rem 0 0 0;
   }
+  .row-about {
+    margin: 10rem 0 0 0;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -69,14 +72,22 @@ MEDIA QUERIES
     width: 20rem;
   }
   h1 {
-    font-size: 7rem;
+    font-size: 5rem;
     letter-spacing: 0.2rem;
+    text-align: center;
   }
   p {
+    margin-top: 2rem;
     font-size: 1.5rem;
+    text-align: center;
   }
-  .row-header {
-    margin: 7rem 0 0 0;
+  .row-header,
+  .row-about {
+    margin: 6rem 0 0 0;
+  }
+  .owl-header .owl-dot,
+  .owl-about .owl-dot {
+    display: none;
   }
   .col-btn {
     display: flex;

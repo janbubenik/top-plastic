@@ -44,7 +44,7 @@ p {
   font-size: 1.2rem;
 }
 
-*:focus {
+.owl-dot:focus {
   outline: 0;
 }
 
@@ -71,19 +71,18 @@ p {
 .owl-theme .owl-header .owl-dots {
   position: absolute;
   width: 100%;
-  text-align: right;
 }
 
 .owl-header .owl-dot {
   position: relative;
   top: 15rem;
-  text-align: right;
+  float: right;
+  margin: 0 2rem 0 0;
 }
 
 .owl-theme .owl-header .owl-dots .owl-dot span {
   width: 1.2rem;
   height: 1.2rem;
-  margin: 5rem 0 0 2rem;
   background: #d6d6d6;
   display: block;
   transition: opacity 400ms ease;
@@ -93,10 +92,6 @@ p {
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #869791;
-}
-
-.owl-dot:focus {
-  outline: 0;
 }
 
 .btn-1 {
@@ -126,14 +121,18 @@ p {
 .owl-theme .owl-dots {
   position: absolute;
   width: 100%;
-  text-align: left;
+}
+
+.owl-about .owl-dot {
+  position: relative;
+  top: 15rem;
+  float: left;
+  margin: 0 2rem 0 0;
 }
 
 .owl-theme .owl-dots .owl-dot span {
   width: 1.2rem;
   height: 1.2rem;
-  margin: 0 2rem 0 0;
-  float: right;
   background: #d6d6d6;
   display: block;
   transition: opacity 400ms ease;
@@ -174,8 +173,6 @@ p {
 .owl-theme .owl-dots .owl-dot span {
   width: 1.2rem;
   height: 1.2rem;
-  margin: 0 2rem 0 0;
-  float: right;
   background: #d6d6d6;
   display: block;
   transition: opacity 400ms ease;
@@ -216,8 +213,6 @@ p {
 .owl-theme .owl-dots .owl-dot span {
   width: 1.2rem;
   height: 1.2rem;
-  margin: 0 2rem 0 0;
-  float: right;
   background: #d6d6d6;
   display: block;
   transition: opacity 400ms ease;
@@ -258,8 +253,6 @@ p {
 .owl-theme .owl-dots .owl-dot span {
   width: 1.2rem;
   height: 1.2rem;
-  margin: 0 2rem 0 0;
-  float: right;
   background: #d6d6d6;
   display: block;
   transition: opacity 400ms ease;
