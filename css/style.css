@@ -31,6 +31,13 @@ p {
   font-family: "Montserrat", sans-serif;
   color: #fffffe;
   font-weight: 300;
+  text-align: left;
+}
+
+#logo {
+  width: 30rem;
+  height: auto;
+  margin: 5rem 0 0 5rem;
 }
 
 .btn {
@@ -44,226 +51,46 @@ p {
   font-size: 1.2rem;
 }
 
+.owl-theme .owl-dots .owl-dot span {
+  display: block;
+  transition: opacity 400ms ease;
+}
+
+.owl-dot {
+  margin-left: 0.8rem;
+}
+
 .owl-dot:focus {
   outline: 0;
 }
 
-/* HEADER SECTION */
+/* HEADER SECTION 
+----------------------------------------------------------------------------------------*/
 
 .header {
-  background-image: url("/img/01_background.png");
+  background-image: url("/01_top-plastic/img/01_background.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
-}
-
-.row-header {
-  margin: 15rem 0 0 0;
-}
-
-#logo {
-  width: 30rem;
-  height: auto;
-  margin: 5rem 0 0 5rem;
-}
-
-.owl-theme .owl-header .owl-dots {
-  position: absolute;
-  width: 100%;
-}
-
-.owl-header .owl-dot {
-  position: relative;
-  top: 15rem;
-  float: right;
-  margin: 0 2rem 0 0;
-}
-
-.owl-theme .owl-header .owl-dots .owl-dot span {
-  width: 1.2rem;
-  height: 1.2rem;
-  background: #d6d6d6;
-  display: block;
-  transition: opacity 400ms ease;
-  border-radius: 3rem;
-}
-
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
-  background: #869791;
 }
 
 .btn-1 {
   margin-top: 5rem;
 }
 
-/* ABOUT SECTION */
+.owl-header,
+.owl-theme .owl-dots {
+  text-align: right;
+}
+
+/* ABOUT SECTION 
+----------------------------------------------------------------------------------------*/
 
 .about {
-  background-image: url("/img/02_background.png");
+  background-image: url("/01_top-plastic/img/02_background.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
-}
-
-.row-about {
-  margin: 15rem 0 0 0;
-}
-
-#logo {
-  width: 30rem;
-  height: auto;
-  margin: 5rem 0 0 5rem;
-}
-
-.owl-theme .owl-dots {
-  position: absolute;
-  width: 100%;
-}
-
-.owl-about .owl-dot {
-  position: relative;
-  top: 15rem;
-  float: left;
-  margin: 0 2rem 0 0;
-}
-
-.owl-theme .owl-dots .owl-dot span {
-  width: 1.2rem;
-  height: 1.2rem;
-  background: #d6d6d6;
-  display: block;
-  transition: opacity 400ms ease;
-  border-radius: 3rem;
-}
-
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
-  background: #869791;
-}
-
-.btn-2 {
-  margin-top: 5rem;
-}
-
-/* WORK SECTION */
-
-.work {
-  background-image: url("/img/011_background.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-}
-
-#logo {
-  width: 30rem;
-  height: auto;
-  margin: 5rem 0 0 5rem;
-}
-
-.owl-theme .owl-dots {
-  position: absolute;
-  width: 100%;
-  text-align: left;
-}
-
-.owl-theme .owl-dots .owl-dot span {
-  width: 1.2rem;
-  height: 1.2rem;
-  background: #d6d6d6;
-  display: block;
-  transition: opacity 400ms ease;
-  border-radius: 3rem;
-}
-
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
-  background: #869791;
-}
-
-.btn-3 {
-  margin-top: 5rem;
-}
-
-/* TECHNOLOGY SECTION */
-
-.technology {
-  background-image: url("/img/011_background.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-}
-
-#logo {
-  width: 30rem;
-  height: auto;
-  margin: 5rem 0 0 5rem;
-}
-
-.owl-theme .owl-dots {
-  position: absolute;
-  width: 100%;
-  text-align: left;
-}
-
-.owl-theme .owl-dots .owl-dot span {
-  width: 1.2rem;
-  height: 1.2rem;
-  background: #d6d6d6;
-  display: block;
-  transition: opacity 400ms ease;
-  border-radius: 3rem;
-}
-
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
-  background: #869791;
-}
-
-.btn-4 {
-  margin-top: 5rem;
-}
-
-/* TEAM SECTION */
-
-.team {
-  background-image: url("/img/02_background.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-}
-
-#logo {
-  width: 30rem;
-  height: auto;
-  margin: 5rem 0 0 5rem;
-}
-
-.owl-theme .owl-dots {
-  position: absolute;
-  width: 100%;
-  text-align: left;
-}
-
-.owl-theme .owl-dots .owl-dot span {
-  width: 1.2rem;
-  height: 1.2rem;
-  background: #d6d6d6;
-  display: block;
-  transition: opacity 400ms ease;
-  border-radius: 3rem;
-}
-
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
-  background: #869791;
-}
-
-.btn-4 {
-  margin-top: 5rem;
 }
